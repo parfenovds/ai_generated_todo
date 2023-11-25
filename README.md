@@ -52,3 +52,10 @@ Before running the application, make sure you have:
     - POST /api/todo: Create a new Todo Item.
     - PUT /api/todo/{id}: Update an existing Todo Item by ID.
     - DELETE /api/todo/{id}: Delete a Todo Item by ID.
+4. **Answers:**
+   
+- Was it easy to complete the task using AI? - I know how to write the same app with no AI, so it was not hard at all.
+- How long did task take you to complete? (Please be honest, we need it to gather anonymized statistics) - Don't know, around 2 - 4 hours.
+- Was the code ready to run after generation? What did you have to change to make it usable? - Mostly. I had to make small changes in application.properties, a lot of changes in tests (to not allow db changes at a time of testing). Checkstyle.xml I had to write by myself.
+- Which challenges did you face during completion of the task? - I had to think on questions and sometimes it's been easier to write some parts by myself or just to google it.
+- Which specific prompts you learned as a good practice to complete the task? - using my native language, simple questions and context providing.
